@@ -1,0 +1,174 @@
+Data Normal
+------------------------------------------------------------------
+RangeIndex: 260 entries, 0 to 259
+Data columns (total 16 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Common_name               260 non-null    object 
+ 1   Molecular Weight (g/mol)  259 non-null    object 
+ 2   pKa                       260 non-null    float64
+ 3   Log P                     260 non-null    object 
+ 4   Log S                     256 non-null    object 
+ 5   Polar Surface Area (Å2)   260 non-null    object 
+ 6   Polarizability (Å3)       259 non-null    object 
+ 7   HOMO (eV)                 260 non-null    float64
+ 8   LUMO (eV)                 260 non-null    float64
+ 9   Ionization Energy (eV)    258 non-null    float64
+ 10  Electron Affinity (eV)    258 non-null    float64
+ 11  Electronegativity (eV)    258 non-null    float64
+ 12  Hardness  (eV)            258 non-null    float64
+ 13  Electrophilicity (eV)     260 non-null    float64
+ 14   ΔN_Fe                    260 non-null    float64
+ 15  IE (%)                    82 non-null     float64
+------------------------------------------------------------
+Normalisasi
+------------------------------------------------------------
+RangeIndex: 260 entries, 0 to 259
+Data columns (total 16 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Common_name               260 non-null    object 
+ 1   Molecular Weight (g/mol)  259 non-null    object 
+ 2   pKa                       260 non-null    float64
+ 3   Log P                     260 non-null    object 
+ 4   Log S                     256 non-null    object 
+ 5   Polar Surface Area (Å2)   260 non-null    object 
+ 6   Polarizability (Å3)       259 non-null    object 
+ 7   HOMO (eV)                 260 non-null    float64
+ 8   LUMO (eV)                 260 non-null    float64
+ 9   Ionization Energy (eV)    258 non-null    float64
+ 10  Electron Affinity (eV)    258 non-null    float64
+ 11  Electronegativity (eV)    258 non-null    float64
+ 12  Hardness  (eV)            258 non-null    float64
+ 13  Electrophilicity (eV)     260 non-null    float64
+ 14   ΔN_Fe                    260 non-null    float64
+ 15  IE (%)                    82 non-null     float64
+---------------------------------------------------------------
+Setelah data yang kosong didrop 
+---------------------------------------------------------------
+Index: 76 entries, 2 to 259
+Data columns (total 16 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Common_name               76 non-null     object 
+ 1   Molecular Weight (g/mol)  76 non-null     float64
+ 2   pKa                       76 non-null     float64
+ 3   Log P                     76 non-null     float64
+ 4   Log S                     76 non-null     float64
+ 5   Polar Surface Area (Å2)   76 non-null     float64
+ 6   Polarizability (Å3)       76 non-null     float64
+ 7   HOMO (eV)                 76 non-null     float64
+ 8   LUMO (eV)                 76 non-null     float64
+ 9   Ionization Energy (eV)    76 non-null     float64
+ 10  Electron Affinity (eV)    76 non-null     float64
+ 11  Electronegativity (eV)    76 non-null     float64
+ 12  Hardness  (eV)            76 non-null     float64
+ 13  Electrophilicity (eV)     76 non-null     float64
+ 14   ΔN_Fe                    76 non-null     float64
+ 15  IE (%)                    76 non-null     float64
+--------------------------------------------------------------
+Setelah data yang terduplikat di drop
+--------------------------------------------------------------
+Index: 68 entries, 2 to 259
+Data columns (total 16 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Common_name               68 non-null     object 
+ 1   Molecular Weight (g/mol)  68 non-null     float64
+ 2   pKa                       68 non-null     float64
+ 3   Log P                     68 non-null     float64
+ 4   Log S                     68 non-null     float64
+ 5   Polar Surface Area (Å2)   68 non-null     float64
+ 6   Polarizability (Å3)       68 non-null     float64
+ 7   HOMO (eV)                 68 non-null     float64
+ 8   LUMO (eV)                 68 non-null     float64
+ 9   Ionization Energy (eV)    68 non-null     float64
+ 10  Electron Affinity (eV)    68 non-null     float64
+ 11  Electronegativity (eV)    68 non-null     float64
+ 12  Hardness  (eV)            68 non-null     float64
+ 13  Electrophilicity (eV)     68 non-null     float64
+ 14   ΔN_Fe                    68 non-null     float64
+ 15  IE (%)                    68 non-null     float64
+-----------------------------------------------------------
+setelah hapus anomali
+-----------------------------------------------------------
+Index: 48 entries, 2 to 254
+Data columns (total 16 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Common_name               48 non-null     object 
+ 1   Molecular Weight (g/mol)  48 non-null     float64
+ 2   pKa                       48 non-null     float64
+ 3   Log P                     48 non-null     float64
+ 4   Log S                     48 non-null     float64
+ 5   Polar Surface Area (Å2)   48 non-null     float64
+ 6   Polarizability (Å3)       48 non-null     float64
+ 7   HOMO (eV)                 48 non-null     float64
+ 8   LUMO (eV)                 48 non-null     float64
+ 9   Ionization Energy (eV)    48 non-null     float64
+ 10  Electron Affinity (eV)    48 non-null     float64
+ 11  Electronegativity (eV)    48 non-null     float64
+ 12  Hardness  (eV)            48 non-null     float64
+ 13  Electrophilicity (eV)     48 non-null     float64
+ 14   ΔN_Fe                    48 non-null     float64
+ 15  IE (%)                    48 non-null     float64
+----------------------------------------------------------
+Perincian Data
+----------------------------------------------------------
+Total Data = 260
+Drop data kosong = 76
+drop duplicated = 68
+drop dengan IQR = 48
+-----------------------------------------------------------
+Model : Linear,Nonlinear,examble,NN
+-----------------------------------------------------------
+
+
+Acetaminophen       1
+Acetazolamide       1
+Scopolamine         1
+Phenylephrine       1
+Pheniramine         1
+Phenytoin           1
+Phenobarbital       1
+Phenolphthalein     1
+Isoniazid           1
+Mefenamic acid      1
+Metoprolol          1
+Metronidazole       1
+Naproxen            1
+Nicotinamide        1
+Orphenadrine        1
+Oxacillin           1
+Papaverine          1
+Sulfamerazina       1
+Sulfanilamide       1
+Sulfapyridine       1
+Theobromine         1
+Theophylline        1
+Trimethoprim        1
+Emetine             1
+Ephedrine           1
+Colchicine          1
+barbituric acid     1
+Aminophylline       1
+Amitriptyline       1
+Amoxicillin         1
+Ampicillin          1
+Antipyrine          1
+Arecoline           1
+Ascorbic Acid       1
+Aspirine            1
+Atropine            1
+Benzylpenicillin    1
+Clindamycin         1
+Benzoic acid        1
+Benzylamine         1
+Cephalexin          1
+Cephalothin         1
+Cephapirin          1
+Cefazolin           1
+Cephradine          1
+Cimetidine          1
+Citric acid         1
+Warfarin            1
